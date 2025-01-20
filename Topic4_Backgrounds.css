@@ -1,0 +1,119 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container div {
+  width: 300px;
+  height: 150px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Background Color */
+.background-color {
+  background-color: #3498db; /* Light Blue */
+}
+
+/* Background Image */
+.background-image {
+  background-image: url('../images/stone.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Background Size: cover */
+.background-size-cover {
+  background-image: url('../images/stone.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Background Size: contain */
+.background-size-contain {
+  background-image: url('../images/stone.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Background Size: auto */
+.background-size-auto {
+  background-image: url('../images/stone.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Background Repeat: repeat */
+.background-repeat {
+   background-image: url('../images/stone.jpg');
+   background-repeat: repeat;
+   background-size: 100px;
+}
+
+/* Background Repeat: no-repeat */
+.background-no-repeat {
+  background-image: url('../images/stone.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* Background Position: center */
+.background-position-center {
+  background-image: url('../images/stone.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Background Position: top */
+.background-position-top {
+  background-image: url('../images/stone.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-color: black;
+}
+
+/* Background Position: left */
+.background-position-left {
+  background-image: url('../images/stone.jpg');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-color: black;
+
+}
+
+/* Background Position: right */
+.background-position-right {
+    background-image: url('../images/stone.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-color: black;
+  
+  }
+
+  /* Background Position: bottom */
+.background-position-bottom {
+    background-image: url('../images/stone.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-color: black;
+  
+  }

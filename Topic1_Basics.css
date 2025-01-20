@@ -1,0 +1,66 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Class Selector */
+  .class-example {
+    background-color: #f0f8ff;
+    padding: 1rem;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    margin: 1rem 0;
+  }
+  
+  .class-example h2 {
+    color: #4CAF50;
+  }
+  
+  .class-example p {
+    color: #333;
+  }
+  
+  /* ID Selector */
+  #id-example {
+    background-color: #ffebcc;
+    padding: 1rem;
+    border: 2px dashed #ff5722;
+    border-radius: 8px;
+    margin: 1rem 0;
+  }
+  
+  #id-example h2 {
+    color: #ff5722;
+  }
+  
+  #id-example p {
+    color: #555;
+  }
+  
+  /* Attribute Selector */
+  input[type="text"] {
+    border: 2px solid #4CAF50;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+  
+  input[type="password"] {
+    border: 2px solid #ff5722;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: #007BFF;
+    
+  }
+  

@@ -1,0 +1,63 @@
+/* General Container Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Font Properties */
+  .font-family {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .font-size {
+    font-size: 20px;
+  }
+  
+  .font-weight {
+    font-weight: 700; /* Bold */
+  }
+  
+  .font-style {
+    font-style: italic;
+  }
+  
+  .font-variant {
+    font-variant: small-caps;
+  }
+  
+  /* Text Styling */
+  .text-align {
+    text-align: center;
+  }
+  
+  .text-transform {
+    text-transform: uppercase;
+  }
+  
+  .text-decoration {
+    text-decoration: underline line-through;
+  }
+  
+  .letter-spacing {
+    letter-spacing: 2px;
+  }
+  
+  .word-spacing {
+    word-spacing: 10px;
+  }
+  
+  /* Line and Paragraph Spacing */
+  .line-height {
+    line-height: 2; /* Increased line spacing */
+  }
+  
+  .text-indent {
+    text-indent: 30px; /* Indents the first line of the paragraph */
+  }
+  
