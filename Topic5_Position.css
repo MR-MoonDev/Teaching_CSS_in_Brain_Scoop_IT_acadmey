@@ -1,0 +1,66 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    /* margin: 20px; */
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    background-color: burlywood;
+}
+
+.container {
+    padding : 20px;
+    background-color: cadetblue;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+
+
+}
+
+/* Common Box Styling */
+.box {
+    width: 200px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* static Position */
+
+.static {
+    background-color: #e67e22;
+    /* Orange */
+}
+
+/* Relative Position */
+.relative {
+    background-color: aqua;
+    position: relative;
+    top: 40px;
+}
+
+
+.absoute {
+    background-color: blueviolet;
+    position: absolute;
+    top: 40px;
+
+}
+
+.sticky {
+    background-color: #22e660;
+    position: sticky;
+    top: 0;
+}
+
+.fixed {
+    background-color: #c9e622;
+    position: fixed;
+    top: 0;
+}
