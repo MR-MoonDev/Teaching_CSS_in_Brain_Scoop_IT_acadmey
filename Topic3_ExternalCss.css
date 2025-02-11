@@ -1,0 +1,22 @@
+*{
+   color: yellow;
+   padding: 0;
+   margin: 0;
+}
+
+h1{
+    color: red;
+}
+
+#heading_ID{
+    color: blue;
+}
+
+
+.heading_class{
+   color: green;
+}
+
+a{
+    text-decoration: none;
+}

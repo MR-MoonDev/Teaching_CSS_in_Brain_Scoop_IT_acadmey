@@ -5,6 +5,10 @@ body {
     margin: 20px;
   }
   
+  #arial{
+    font-family: 'arial';
+  }
+
   .container {
     max-width: 800px;
     margin: auto;
