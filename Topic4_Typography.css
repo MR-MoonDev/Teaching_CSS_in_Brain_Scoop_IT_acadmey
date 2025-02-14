@@ -1,22 +1,17 @@
 /* General Container Styling */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.5;
-    margin: 20px;
   }
   
-  #arial{
-    font-family: 'arial';
-  }
+  
 
   .container {
-    max-width: 800px;
-    margin: auto;
+      margin: auto;
   }
   
   /* Font Properties */
   .font-family {
-    font-family: 'Arial', sans-serif;
+    font-family:monospace;
   }
   
   .font-size {
@@ -36,8 +31,9 @@ body {
   }
   
   /* Text Styling */
+  
   .text-align {
-    text-align: center;
+    text-align: center; 
   }
   
   .text-transform {
@@ -49,11 +45,11 @@ body {
   }
   
   .letter-spacing {
-    letter-spacing: 2px;
+    letter-spacing: 20px;
   }
   
   .word-spacing {
-    word-spacing: 10px;
+    word-spacing: 50px;
   }
   
   /* Line and Paragraph Spacing */
@@ -62,6 +58,6 @@ body {
   }
   
   .text-indent {
-    text-indent: 30px; /* Indents the first line of the paragraph */
+    text-indent: 90px; /* Indents the first line of the paragraph */
   }
   
