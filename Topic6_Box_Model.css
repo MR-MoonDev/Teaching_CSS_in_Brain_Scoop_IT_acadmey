@@ -28,17 +28,20 @@ body {
   /* Padding */
   .box-padding {
     background-color: #e0f7fa;
-    padding: 20px;
+    padding: 20px 30px 40px 50px;
+    padding-left: 200px;
     width: 200px;
     height: 100px;
     text-align: center;
-    line-height: 60px; /* Reduced to fit with padding */
+    /* line-height: 60px; Reduced to fit with padding */
   }
   
   /* Border */
   .box-border {
     background-color: #ffe0b2;
-    border: 5px dotted #ff5722;
+    border: 5px;
+    border-style: dotted ;
+    border-color: #03a9f4;
     width: 200px;
     height: 100px;
     text-align: center;
@@ -59,7 +62,8 @@ body {
   /* Margin */
   .box-margin {
     background-color: #e1bee7;
-    margin: 20px;
+    margin: 20px 40px 60px 80px;
+    margin-top: 200px;
     width: 200px;
     height: 100px;
     text-align: center;

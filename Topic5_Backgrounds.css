@@ -8,16 +8,17 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  
 }
 
 .container div {
   width: 300px;
   height: 150px;
   color: white;
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: center; */
   font-size: 14px;
 }
 
@@ -28,9 +29,13 @@ body {
 
 /* Background Image */
 .background-image {
-  background-image: url('../images/stone.jpg');
-  background-size: cover;
-  background-position: center;
+   background-image: url('../IMAGES/Birds.webp ');
+   background-size: contain;
+    background-repeat: no-repeat;
+    background-color:rebeccapurple;
+    background-position: center;
+   /* background-size: cover; */
+  /* background-position: center; */
 }
 
 /* Background Size: cover */
