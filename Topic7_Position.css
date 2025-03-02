@@ -1,66 +1,61 @@
-/* General Styling */
-body {
-    font-family: Arial, sans-serif;
-    /* margin: 20px; */
-    margin: 0;
+body{
     padding: 0;
-    height: 1000px;
+    margin: 0;
+}
+
+.container{
     background-color: burlywood;
-}
-
-.container {
-    padding : 20px;
-    background-color: cadetblue;
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    justify-content: center;
-    height: 1000px;
-
-
-}
-
-/* Common Box Styling */
-.box {
-    width: 200px;
-    height: 100px;
-    color: white;
-    text-align: center;
-    font-size: 14px;
-    border-radius: 8px;
     padding: 10px;
 }
-
-/* static Position */
-
-.static {
-    background-color: #e67e22;
-    /* Orange */
+.box{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
 }
 
-/* Relative Position */
-.relative {
-    background-color: aqua;
-    position: relative;
-    top: 40px;
+.static{
+ background-color:red;
+}
+.relative{
+ background-color: green;
+ /* position: relative; */
+ /* top: 80px; */
+}
+.absoute{
+background-color: blue;
+/* position: absolute;
+left: 30px; */
+
+}
+.sticky{
+ background-color: purple;
+ /* position: sticky;
+ top: 10px; */
+}
+.fixed{
+ background-color: yellow;
+ /* position: fixed;
+ top: 0px; */
 }
 
-
-.absoute {
-    background-color: blueviolet;
-    position: absolute;
-    top: 40px;
-
+.float{
+    background-color: darkgray;
+    width: 100%;
+    padding: 10px;
+    display: flow-root;
 }
 
-.sticky {
-    background-color: #22e660;
-    position: sticky;
-    top: 0;
+.floatChild{
+    width: 120px;
+    height: 120px;
+    float: left;
+    background-image: url('../IMAGES/stone.jpg');
+    background-size: cover;
 }
 
-.fixed {
-    background-color: #c9e622;
-    position: fixed;
-    top: 0;
+.mydiscription{
+    clear: left;
 }
