@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contanier{
+    background-color: burlywood;
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: blueviolet;
+
+}
+
+.heading{
+    text-align: center;
+}
+
+@media (min-width: 300px) and (max-width: 499px){
+    .contanier{
+        background-color: aqua;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:500px){
+    .contanier{
+        background-color: rgb(221, 255, 0);
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    }
+}
