@@ -1,0 +1,27 @@
+/* :root{
+    --primary-color :  red;
+    --secondry-color : green;
+
+
+}
+div{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primary-color);
+} */
+
+:root {
+    --bg-color: white;
+    --text-color: black;
+}
+
+.dark-theme {
+    --bg-color: black;
+    --text-color: white;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: 0.3s ease-in-out;
+}

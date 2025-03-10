@@ -1,18 +1,24 @@
 *{
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.container {
-    display: flex;
-    height: 200px;
-    background-color: cadetblue;
-    align-items: stretch; /* Options: flex-start, flex-end, center, baseline, stretch */
-  }
-  
-  .item {
-    background-color: steelblue;
-    color: white;
-    padding: 20px;
-    margin: 5px;
-  }
-  
+
+.container{
+  background-color: #ffa07a;
+  height: 300px;
+  border:  1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 10px;
+}
+
+.item{
+  width: 50px;
+  height: 50px;
+  align-content: center;
+  background-color: cornflowerblue;
+  border: 1px solid black;
+}
+

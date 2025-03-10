@@ -1,0 +1,11 @@
+select {
+    background-color: white;
+    cursor: pointer;
+}
+
+input[type="radio"]{
+    height: 20px;
+    width: 20px;
+    border: none;
+    accent-color: aqua;
+}

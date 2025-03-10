@@ -1,0 +1,112 @@
+#Transition {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: ease;
+}
+
+#Transition:hover {
+    background-color: brown;
+}
+
+.contanier {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    margin: 20px;
+    background-color: blue;
+}
+
+#child {
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    animation: rotate;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in;
+}
+
+
+@keyframes rotate {
+    0% {}
+
+    25% {
+        transform: translateX(400px);
+        background-color: yellow;
+    }
+
+    50% {
+        transform: translateX(400px) translateY(400px);
+        background-color: green;
+    }
+
+    75% {
+        transform: translateX(0px) translateY(400px);
+        background-color: red;
+    }
+
+    100% {
+        transform: translateX(0) translateY(0);
+        background-color: purple;
+    }
+
+}
+
+.bigbox {
+    width: 100vw;
+    height: 100vh;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: greenyellow;
+    transition: 2s;
+}
+
+.rotate {
+    animation-name: rotation;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+    animation-delay: 1s;
+    background-color: rgba(128, 255, 0, 0.744);
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.scale:hover {
+    transform: scale(2, 2);
+}
+
+
+.skew:hover {
+    transform: skew(20deg, 30deg);
+}
+
+.translate:hover {
+    transform: translate(50px, 100px);
+
+}

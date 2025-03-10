@@ -1,0 +1,12 @@
+h1::first-letter{
+    color: aqua;
+}
+
+h1::before{
+    content: "llll";
+    color: brown;
+}
+h1::after{
+    content: "end";
+    color: chocolate;
+}

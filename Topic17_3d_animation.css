@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contanier{
+    width: 100vw;
+    height: 100vh;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.box{
+    width:80px;
+    height: 50px;
+    background-color: aqua;
+    transition: 1s;
+}
+
+#RotateX:hover{
+      transform: rotateX(89deg);
+}
+#RotateY:hover{
+    transform: rotateY(89deg);
+}
+#RotateZ:hover{
+    transform: rotateZ(89deg);
+    
+}
+#TranslateX:hover{
+   transform: translateX(100px);
+}
+#TranslateY:hover{
+   transform: translateY(100px);
+}
+#TranslateZ:hover{
+   transform:perspective(100px) translateZ(-100px);
+}
+#ScaleX:hover{
+    transform: ScaleX(2);
+}
+#ScaleY:hover{
+    transform: ScaleY(1.5) ;
+}
+#ScaleZ:hover {
+    transform:perspective(100px) scaleZ(5) rotateX(30deg); /* Add rotation for visibility */
+
+}
